@@ -15,7 +15,7 @@ This project is dedicated to collecting and documenting outstanding open source 
 - [Chatwoot开源项目详解：全渠道客户支持平台部署教程与Intercom替代方案实战指南](2606/Chatwoot开源项目详解：全渠道客户支持平台部署教程与Intercom替代方案实战指南.md)
 - [Discourse开源项目详解：自托管社区论坛平台部署教程与现代论坛搭建实战指南](2606/Discourse开源项目详解：自托管社区论坛平台部署教程与现代论坛搭建实战指南.md)
 - [Home Assistant - 开源智能家居自动化平台,Python开发,本地控制,隐私优先,支持3000+设备接入](2606/Home%20Assistant%20-%20开源智能家居自动化平台,Python开发,本地控制,隐私优先,支持3000+设备接入.md)
-- [Immich开源项目详解：自托管照片视频管理平台部署教程与Google Photos替代方案实战指南](2606/Immich开源项目详解：自托管照片视频管理平台部署教程与Google Photos替代方案实战指南.md)
+- [Immich开源项目详解：自托管照片视频管理平台部署教程与Google Photos替代方案实战指南](2606/Immich%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%AF%A6%E8%A7%A3%EF%BC%9A%E8%87%AA%E6%89%98%E7%AE%A1%E7%85%A7%E7%89%87%E8%A7%86%E9%A2%91%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B%E4%B8%8EGoogle%20Photos%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.md)
 - [Meilisearch - 开源高性能全文搜索引擎,Rust开发,50毫秒响应,支持中文语义搜索,替代Elasticsearch](2606/Meilisearch%20-%20开源高性能全文搜索引擎,Rust开发,50毫秒响应,支持中文语义搜索,替代Elasticsearch.md)
 - [Nextcloud - 开源自托管网盘与协作平台,PHP开发,数据安全可控,替代百度网盘与Google Drive](2606/Nextcloud%20-%20开源自托管网盘与协作平台,PHP开发,数据安全可控,替代百度网盘与Google%20Drive.md)
 - [NodeBB - 现代化开源社区论坛系统,Node.js驱动,实时交互,插件丰富,多数据库支持](2606/NodeBB%20-%20现代化开源社区论坛系统,Node.js驱动,实时交互,插件丰富,多数据库支持.md)
