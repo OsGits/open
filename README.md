@@ -11,4 +11,4 @@ This project is dedicated to collecting and documenting outstanding open source 
 ## 项目导航 | Project Navigation
 
 ### 2606
-- [Uptime Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南](2606/Uptime Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南.md)
+- [Uptime Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南](2606/Uptime%20Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南.md)
