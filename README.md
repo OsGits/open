@@ -12,6 +12,7 @@ This project is dedicated to collecting and documenting outstanding open source 
 ## 项目导航 | Project Navigation
 
 ### 项目文件列表（按修改时间从新到旧）
+- [ComfyUI - 模块化AI创作引擎,节点式工作流,支持图像视频3D生成,本地运行开源免费](2606/ComfyUI%20-%20模块化AI创作引擎,节点式工作流,支持图像视频3D生成,本地运行开源免费.md)
 - [Firefly III开源项目详解：自托管个人财务管理平台部署教程与复式记账实战指南](2606/Firefly%20III开源项目详解：自托管个人财务管理平台部署教程与复式记账实战指南.md)
 - [Vaultwarden开源项目详解：轻量级自托管密码管理器部署教程与Bitwarden私有化实战指南](2606/Vaultwarden开源项目详解：轻量级自托管密码管理器部署教程与Bitwarden私有化实战指南.md)
 - [Uptime Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南](2606/Uptime%20Kuma开源项目详解：自托管服务监控工具部署教程与多渠道告警通知实战指南.md)
