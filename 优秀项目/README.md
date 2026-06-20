@@ -4,6 +4,16 @@
 
 | # | 项目文件 | 更新日期 |
 |---|---------|---------|
+| 39 | [Ollama - 开源本地大模型运行平台,Go开发,支持Llama与Gemma等数十种模型,本地部署AI推理.md](Ollama%20-%20%E5%BC%80%E6%BA%90%E6%9C%AC%E5%9C%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%BF%90%E8%A1%8C%E5%B9%B3%E5%8F%B0%2CGo%E5%BC%80%E5%8F%91%2C%E6%94%AF%E6%8C%81Llama%E4%B8%8EGemma%E7%AD%89%E6%95%B0%E5%8D%81%E7%A7%8D%E6%A8%A1%E5%9E%8B%2C%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E6%8E%A8%E7%90%86.md) | 2026-06-20 |
+| 38 | [Dify - 开源LLM应用开发平台,支持RAG与Agent工作流,可视化管理,Python+TypeScript开发.md](Dify%20-%20%E5%BC%80%E6%BA%90LLM%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0%2C%E6%94%AF%E6%8C%81RAG%E4%B8%8EAgent%E5%B7%A5%E4%BD%9C%E6%B5%81%2C%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86%2CPython%2BTypeScript%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 37 | [Coolify - 开源自托管PaaS平台,替代Heroku与Netlify,一键部署应用,TypeScript+Vue开发.md](Coolify%20-%20%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1PaaS%E5%B9%B3%E5%8F%B0%2C%E6%9B%BF%E4%BB%A3Heroku%E4%B8%8ENetlify%2C%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%BA%94%E7%94%A8%2CTypeScript%2BVue%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 36 | [Plausible Analytics - 开源隐私优先网站统计工具,无Cookie合规GDPR,轻量快速,替代Google Analytics.md](Plausible%20Analytics%20-%20%E5%BC%80%E6%BA%90%E9%9A%90%E7%A7%81%E4%BC%98%E5%85%88%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E5%B7%A5%E5%85%B7%2C%E6%97%A0Cookie%E5%90%88%E8%A7%84GDPR%2C%E8%BD%BB%E9%87%8F%E5%BF%AB%E9%80%9F%2C%E6%9B%BF%E4%BB%A3Google%20Analytics.md) | 2026-06-20 |
+| 35 | [Authentik - 开源身份认证提供者IdP,支持SAML与OAuth2,单点登录SSO,Python+Django开发.md](Authentik%20-%20%E5%BC%80%E6%BA%90%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E6%8F%90%E4%BE%9B%E8%80%85IdP%2C%E6%94%AF%E6%8C%81SAML%E4%B8%8EOAuth2%2C%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95SSO%2CPython%2BDjango%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 34 | [Ghost - 开源专业博客平台,Node.js开发,Markdown编辑器,内置会员与Newsletter,替代WordPress.md](Ghost%20-%20%E5%BC%80%E6%BA%90%E4%B8%93%E4%B8%9A%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%2CNode.js%E5%BC%80%E5%8F%91%2CMarkdown%E7%BC%96%E8%BE%91%E5%99%A8%2C%E5%86%85%E7%BD%AE%E4%BC%9A%E5%91%98%E4%B8%8ENewsletter%2C%E6%9B%BF%E4%BB%A3WordPress.md) | 2026-06-20 |
+| 33 | [changedetection.io - 开源网站内容变更监控工具,支持Discord与Telegram告警,Python开发.md](changedetection.io%20-%20%E5%BC%80%E6%BA%90%E7%BD%91%E7%AB%99%E5%86%85%E5%AE%B9%E5%8F%98%E6%9B%B4%E7%9B%91%E6%8E%A7%E5%B7%A5%E5%85%B7%2C%E6%94%AF%E6%8C%81Discord%E4%B8%8ETelegram%E5%91%8A%E8%AD%A6%2CPython%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 32 | [Seafile - 开源云存储与文件同步平台,Python开发,端到端加密,块级增量同步,替代Dropbox.md](Seafile%20-%20%E5%BC%80%E6%BA%90%E4%BA%91%E5%AD%98%E5%82%A8%E4%B8%8E%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E5%B9%B3%E5%8F%B0%2CPython%E5%BC%80%E5%8F%91%2C%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86%2C%E5%9D%97%E7%BA%A7%E5%A2%9E%E9%87%8F%E5%90%8C%E6%AD%A5%2C%E6%9B%BF%E4%BB%A3Dropbox.md) | 2026-06-20 |
+| 31 | [Khoj - 开源AI个人知识库与第二大脑,支持本地部署与Ollama集成,Python开发.md](Khoj%20-%20%E5%BC%80%E6%BA%90AI%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%B8%8E%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%2C%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8EOllama%E9%9B%86%E6%88%90%2CPython%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 30 | [Listmonk - 开源自托管邮件Newsletter平台,Go开发,替代Mailchimp,订阅者管理与自动化.md](Listmonk%20-%20%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E9%82%AE%E4%BB%B6Newsletter%E5%B9%B3%E5%8F%B0%2CGo%E5%BC%80%E5%8F%91%2C%E6%9B%BF%E4%BB%A3Mailchimp%2C%E8%AE%A2%E9%98%85%E8%80%85%E7%AE%A1%E7%90%86%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96.md) | 2026-06-20 |
 | 29 | [reinstall - 一键安装飞牛NAS系统,fnOS与FygoOS支持,VPS跨平台任意方向重装,Bash开发.md](reinstall%20-%20%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E9%A3%9E%E7%89%9BNAS%E7%B3%BB%E7%BB%9F%2CfnOS%E4%B8%8EFygoOS%E6%94%AF%E6%8C%81%2CVPS%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%BB%BB%E6%84%8F%E6%96%B9%E5%90%91%E9%87%8D%E8%A3%85%2CBash%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
 | 28 | [Syncthing - 开源P2P文件同步工具,Go语言开发,去中心化无服务器,替代Dropbox与Resilio,多平台支持.md](Syncthing%20-%20开源P2P文件同步工具,Go语言开发,去中心化无服务器,替代Dropbox与Resilio,多平台支持.md) | 2026-06-20 |
 | 27 | [Silverbullet - 开源笔记与知识管理工具,TypeScript+Deno开发,Markdown增强语法,模板与查询,实时协作.md](Silverbullet%20-%20开源笔记与知识管理工具,TypeScript+Deno开发,Markdown增强语法,模板与查询,实时协作.md) | 2026-06-20 |
@@ -36,4 +46,4 @@
 
 ---
 
-*最后更新：2026-06-20 | 共 29 个项目*
+*最后更新：2026-06-20 | 共 39 个项目*
