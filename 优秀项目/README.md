@@ -9,8 +9,8 @@
 | 信息 | 内容 |
 |------|------|
 | **当前目录名称** | 优秀项目 |
-| **项目文件总数** | 23 |
-| **功能分类数** | 10 |
+| **项目文件总数** | 21 |
+| **功能分类数** | 9 |
 | **最近更新** | 2026-06-20 |
 
 ---
@@ -26,7 +26,6 @@
 - [📊 服务监控](#-服务监控-1)
 - [💰 财务管理](#-财务管理-1)
 - [🖊️ 笔记工具](#-笔记工具-1)
-- [🛒 VPS / 主机推荐](#-vps--主机推荐-1)
 
 ---
 
@@ -133,29 +132,18 @@
 
 ---
 
-## 🛒 VPS / 主机推荐（1个）
-
-> 高性价比 VPS 和服务器推荐，适合部署以上各类自托管项目
-
-| 项目名称 | 一句话简介 |
-|---------|-----------|
-| [NovixLink 618活动推荐](NovixLink%20618活动：美国住宅VPS月付低至24元起，年付199元起，Cogent国际NTT优化Cox家宽双ISP多线路可选.md) | 美国住宅 VPS，Cogent/NTT 优化线路，双 ISP 多线路支持 |
-
----
-
-## 📊 数据统计 | Statistics
+##  数据统计 | Statistics
 
 ### 按技术语言分布
 
 | 开发语言 | 项目数量 | 代表项目 |
 |---------|---------|---------|
-| 🐍 Python | 5 | Wagtail、Home Assistant、Open WebUI、RAGFlow、OpenClaw |
-| 🦀 Rust | 3 | AppFlowy、Vaultwarden、Meilisearch、RustFS |
+| 🐍 Python | 6 | Wagtail、Home Assistant、Open WebUI、RAGFlow、OpenClaw、ComfyUI |
+| 🦀 Rust | 4 | AppFlowy、Vaultwarden、Meilisearch、RustFS |
 | 💚 Node.js | 4 | Immich、NodeBB、n8n、Uptime Kuma |
 | 🐹 Go | 3 | Gitea、OwnCast、轻量级笔记工具 |
 | 🐘 PHP | 3 | Nextcloud、Statamic、Firefly III |
 | 💎 Ruby | 2 | Discourse、Chatwoot |
-| 🎯 其他 | 3 | ComfyUI (PyTorch)、NovixLink (推荐) |
 
 ### 按应用场景分布
 
@@ -214,4 +202,4 @@
 
 ---
 
-*本文档最近更新：**2026-06-20** | 总项目数：**23** | 总分类：**10** *
+*本文档最近更新：**2026-06-20** | 总项目数：**21** | 总分类：**9** *
