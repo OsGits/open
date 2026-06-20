@@ -1,34 +1,3 @@
----
-title: reinstall开源项目详解：一键安装飞牛NAS系统与VPS跨平台重装工具实战指南
-id: reinstall-fnOS-vps-reinstall-guide
-date: 2026-06-20
-auther: loveos
-cover: /upload/reinstall-cover.png
-excerpt: 开源协议：MIT GitHub Stars：10K+ 核心定位：一键安装飞牛NAS系统，支持19种Linux发行版与Windows，VPS跨平台任意方向重装
-permalink: /2026/reinstall---yi-jian-an-zhuang-fei-niu-nas-xi-tong-yu-vps-kua-ping-tai-zhong-zhuang-gong-ju-shi-zhan
-categories:
- - Github
-tags:
- - Project.Recommendation
- - github
- - bash
- - fnOS
- - 飞牛NAS
- - vps
- - dd
- - system-reinstall
- - linux
- - windows
----
-
-> **开源协议**：MIT
-> **GitHub Stars**：10K+
-> **核心定位**：一键安装飞牛NAS系统，支持19种Linux发行版与Windows官方ISO，VPS跨平台任意方向重装
-
----
-
-<hyperlink-card href="https://github.com/bin456789/reinstall" target="_blank" theme="regular"></hyperlink-card>
-
 
 ## 一、项目概述
 
