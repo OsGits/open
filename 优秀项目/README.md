@@ -4,7 +4,7 @@
 
 | # | 项目文件 | 更新日期 |
 |---|---------|---------|
-| 29 | [reinstall - 一键安装飞牛NAS系统,fnOS与FygoOS支持,VPS跨平台任意方向重装,Bash开发.md](reinstall%20-%20%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E9%A3%9E%E7%89%9BNAS%E7%B3%BB%E7%BB%9F,fnOS%E4%B8%8EFygoOS%E6%94%AF%E6%8C%81,VPS%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%BB%BB%E6%84%8F%E6%96%B9%E5%90%91%E9%87%8D%E8%A3%85,Bash%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
+| 29 | [reinstall - 一键安装飞牛NAS系统,fnOS与FygoOS支持,VPS跨平台任意方向重装,Bash开发.md](reinstall%20-%20%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E9%A3%9E%E7%89%9BNAS%E7%B3%BB%E7%BB%9F%2CfnOS%E4%B8%8EFygoOS%E6%94%AF%E6%8C%81%2CVPS%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%BB%BB%E6%84%8F%E6%96%B9%E5%90%91%E9%87%8D%E8%A3%85%2CBash%E5%BC%80%E5%8F%91.md) | 2026-06-20 |
 | 28 | [Syncthing - 开源P2P文件同步工具,Go语言开发,去中心化无服务器,替代Dropbox与Resilio,多平台支持.md](Syncthing%20-%20开源P2P文件同步工具,Go语言开发,去中心化无服务器,替代Dropbox与Resilio,多平台支持.md) | 2026-06-20 |
 | 27 | [Silverbullet - 开源笔记与知识管理工具,TypeScript+Deno开发,Markdown增强语法,模板与查询,实时协作.md](Silverbullet%20-%20开源笔记与知识管理工具,TypeScript+Deno开发,Markdown增强语法,模板与查询,实时协作.md) | 2026-06-20 |
 | 26 | [Portainer - 开源容器可视化管理平台,Docker与Kubernetes管理,Go+React开发,图形化界面,一键部署应用栈.md](Portainer%20-%20开源容器可视化管理平台,Docker与Kubernetes管理,Go+React开发,图形化界面,一键部署应用栈.md) | 2026-06-20 |
