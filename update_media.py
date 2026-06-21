@@ -237,10 +237,10 @@ def update_markdown(items) -> bool:
     """把 items 写回 MD_FILE。返回是否有改动。"""
     text = MD_FILE.read_text(encoding="utf-8")
 
-    # 1) 更新时间戳：匹配 "💡 更新时间：YYYY.MM.DD"
+    # 1) 更新时间戳：匹配 "💡 更新时间：YYYY.MM.DD HH:MM:SS"
     now = datetime.now(timezone(timedelta(hours=8)))
-    date_str = now.strftime("%Y.%m.%d")
-    new_header_line = f"> 💡 更新时间：{date_str} 以下列表采用循环更新模式，内容会不定期更新替换"
+    timestamp = now.strftime("%Y.%m.%d %H:%M:%S")
+    new_header_line = f"> 💡 更新时间：{timestamp} 以下列表采用循环更新模式，内容会不定期更新替换"
 
     new_text = re.sub(
         r"> 💡 更新时间[：:].*?以下列表采用循环更新模式[，,].*?\n",
