@@ -11,5 +11,4 @@ This project is dedicated to collecting and documenting outstanding open source 
 
 ## 项目导航 | Project Navigation
 
-- 📚 [优秀开源项目收集](优秀项目/-------------项目导航-------------.md) — 点击查看完整项目目录索引
-- 🎬 [影视讯息更新记录](影视时更) — 影视类信息循环更新记录
+- 📚 [优秀开源项目收集](优秀项目/README.md) — 点击查看完整项目目录索引
