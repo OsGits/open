@@ -1,4 +1,4 @@
-# Stirling-PDF - 开源PDF工具包,Java/Spring Boot开发,替代Adobe Acrobat,Docker自托管,OCR与文档转换
+# Stirling-PDF - 开源PDF工具包,Java和SpringBoot开发,替代AdobeAcrobat,Docker自托管,OCR与文档转换
 
 ## 项目概述
 

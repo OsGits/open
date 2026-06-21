@@ -1,4 +1,4 @@
-# Appwrite - 开源后端即服务平台,Web/Mobile/Flutter应用后端,Docker自托管,用户认证数据库存储
+# Appwrite - 开源后端即服务平台,Web和Mobile和Flutter应用后端,Docker自托管,用户认证数据库存储
 
 ## 项目概述
 
