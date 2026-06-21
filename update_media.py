@@ -337,6 +337,13 @@ def ensure_branch_and_push(changed: bool) -> bool:
         return False
     print(f"  -> 已提交到 {BRANCH}: {msg}")
 
+    # 4b) 在 push 前先拉取远程最新，避免 rejected
+    r = git("pull", "--rebase", REMOTE, BRANCH)
+    if r.returncode != 0:
+        print(f"[WARN] git pull {REMOTE} {BRANCH} 失败: {r.stderr.strip()}")
+        # 回退 rebase，避免卡住
+        git("rebase", "--abort")
+
     # 5) push 到 origin
     r = git("push", REMOTE, BRANCH)
     if r.returncode != 0:
