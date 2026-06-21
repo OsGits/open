@@ -15,7 +15,7 @@
 
 > [🎬 影视讯息](影视目录.md) | 循环覆盖更新影视类信息库！
 
-> [🔗 贡献者们](graphs/contributors) | 查看所有贡献者！
+> [🔗 贡献者们](/OsGits/open/graphs/contributors) | 查看所有贡献者！
 
 ***
 
