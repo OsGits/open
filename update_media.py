@@ -20,6 +20,7 @@ MD_FILE = Path("/workspace/影视目录.md")
 REPO_DIR = Path("/workspace")
 BRANCH = "main"
 REMOTE = "origin"
+MAX_ITEMS = 100
 
 
 def fetch_api() -> str:
@@ -241,9 +242,9 @@ def update_markdown(items) -> bool:
     """把 items 写回 MD_FILE。返回是否有改动。"""
     text = MD_FILE.read_text(encoding="utf-8")
 
-    # 1) 更新时间戳：匹配 "💡 更新时间：YYYY.MM.DD HH:MM:SS"
+    # 1) 更新时间戳：匹配 "💡 更新时间：YYYY.MM.DD"（L17 固定行）
     now = datetime.now(timezone(timedelta(hours=8)))
-    timestamp = now.strftime("%Y.%m.%d %H:%M:%S")
+    timestamp = now.strftime("%Y.%m.%d")
     new_header_line = f"> 💡 更新时间：{timestamp} 以下列表采用循环更新模式，内容会不定期更新替换"
 
     new_text = re.sub(
@@ -358,7 +359,12 @@ def main() -> int:
         print("[WARN] 未解析到任何条目，跳过更新")
         return 1
 
-    print(f"  -> 解析到 {len(items)} 条记录")
+    # 保持 API 返回顺序（新→旧），超出 MAX_ITEMS 时循环删除旧的
+    if len(items) > MAX_ITEMS:
+        items = items[:MAX_ITEMS]
+        print(f"  -> 解析到 {len(items)} 条记录，超过 {MAX_ITEMS} 条，已截断保留最新 {MAX_ITEMS} 条")
+    else:
+        print(f"  -> 解析到 {len(items)} 条记录")
 
     try:
         changed = update_markdown(items)
