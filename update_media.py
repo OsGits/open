@@ -10,12 +10,16 @@
 """
 
 import re
+import subprocess
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 API_URL = "https://www.anpn.cc/api/t.php"
 MD_FILE = Path("/workspace/影视目录.md")
+REPO_DIR = Path("/workspace")
+BRANCH = "main"
+REMOTE = "origin"
 
 
 def fetch_api() -> str:
@@ -283,6 +287,64 @@ def update_markdown(items) -> bool:
     return True
 
 
+def git(*args: str) -> subprocess.CompletedProcess:
+    """执行 git 命令，返回 CompletedProcess。stdout/stderr 合并输出。"""
+    return subprocess.run(
+        ["git", "-C", str(REPO_DIR), *args],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+
+def ensure_branch_and_push(changed: bool) -> bool:
+    """在 main 分支提交并推送。changed=True 表示文件内容已变。"""
+    # 1) 配置用户名/邮箱（若未设置）
+    for key, value in (
+        ("user.email", "bot@local"),
+        ("user.name", "auto-bot"),
+    ):
+        r = git("config", "--global", "--get", key)
+        if r.returncode != 0 or not r.stdout.strip():
+            git("config", "--global", key, value)
+
+    # 2) 检查当前分支，非 main 则切换
+    r = git("rev-parse", "--abbrev-ref", "HEAD")
+    current = r.stdout.strip()
+    if current != BRANCH:
+        r = git("checkout", BRANCH)
+        if r.returncode != 0:
+            print(f"[WARN] 切换到 {BRANCH} 失败: {r.stderr.strip()}")
+            return False
+
+    # 3) 若没有变化，直接返回
+    r = git("status", "--porcelain")
+    if r.returncode != 0 or not r.stdout.strip():
+        if changed:
+            print("  -> git 状态无待提交变更（可能已被提交过）")
+        return True
+
+    # 4) add + commit
+    msg = f"chore: 自动更新影视目录 {datetime.now():%Y-%m-%d %H:%M}"
+    r = git("add", "-A")
+    if r.returncode != 0:
+        print(f"[WARN] git add 失败: {r.stderr.strip()}")
+        return False
+    r = git("commit", "-m", msg)
+    if r.returncode != 0:
+        print(f"[WARN] git commit 失败: {r.stderr.strip()}")
+        return False
+    print(f"  -> 已提交到 {BRANCH}: {msg}")
+
+    # 5) push 到 origin
+    r = git("push", REMOTE, BRANCH)
+    if r.returncode != 0:
+        print(f"[WARN] git push {REMOTE} {BRANCH} 失败: {r.stderr.strip()}")
+        return False
+    print(f"  -> 已推送到 {REMOTE}/{BRANCH}")
+    return True
+
+
 def main() -> int:
     print(f"[{datetime.now():%Y-%m-%d %H:%M:%S}] 开始更新影视列表…")
     try:
@@ -308,6 +370,13 @@ def main() -> int:
         print(f"  -> 已更新 {MD_FILE}")
     else:
         print("  -> 内容无变化")
+
+    # 自动提交并推送到 main
+    try:
+        ensure_branch_and_push(changed)
+    except Exception as exc:
+        print(f"[WARN] 自动提交/推送失败: {exc}")
+
     return 0
 
 
